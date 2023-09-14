@@ -80,6 +80,7 @@ par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
+By looking at the multiple comparison test, we can see the the zero confidence level intersects with the OTHER-BLACK and the WHITE-BLACK races meaning that there is no difference in average scores on WORDSUM test between each pair of these races. However the zero confidence level does not intersect with the WHITE-OTHER which means that there is difference in average scores between these two races and that's what cause our p-value to be very small. 
 
 # Discussion and Conclusion
 
