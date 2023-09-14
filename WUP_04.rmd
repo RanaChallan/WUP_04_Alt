@@ -59,6 +59,7 @@ By looking at the box plot graph, Its not clear enough if there is a significant
 favstats(WORDSUM~RACE,data=mydata)
 ```
 
+By looking at the favstats, the average/mean values between BLACK and WHITE are very close however the mean value for the OTHER race is have a lower value meaning that there is a difference between the OTHER and both the WHITE and BLACK races.
 
 ## Inferential Results
 
