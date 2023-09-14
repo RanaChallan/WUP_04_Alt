@@ -72,7 +72,14 @@ summary.aov(model1)
 
 P-value = 0.0182
 
-By looking at the one way anova test, our p-value is less than 0.5 so we concluded that we need to run one more test to be able to analyize the data. 
+By looking at the one way anova test, our p-value is less than 0.5 so we concluded that we need to run one more test to be able to analyize the data.
+
+
+```{r}
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
 
 # Discussion and Conclusion
 
